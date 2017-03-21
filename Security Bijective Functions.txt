@@ -1,0 +1,8 @@
+n = int(input())
+x = input()
+xp = x.split(" ")
+
+if n == len(set(map(int, xp))):
+    print("YES")
+else:
+    print("NO")

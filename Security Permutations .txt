@@ -1,0 +1,6 @@
+n = int(input())
+x = input()
+xp = x.split(" ")
+xpr = list(map(int, xp))
+for i in range(n):
+    print(xpr[xpr[i]-1])
