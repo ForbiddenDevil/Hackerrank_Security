@@ -1,0 +1,4 @@
+x = input()
+n = int(input())
+for i in range(len(x)):
+    print((int(x[i])+n)%10, end = "")

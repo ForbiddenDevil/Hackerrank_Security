@@ -1,0 +1,6 @@
+x = input()
+for i in range(len(x)):
+    if int(x[i]) == 9:
+        print("0", end="")
+    else:
+        print(int(x[i]) + 1, end = "")
